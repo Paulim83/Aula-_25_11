@@ -18,7 +18,7 @@ public class aula2 {
     //int salario = sc.nextInt();
     
     //double salario =sc.nextDouble();
-    floatsalario =sc.nextFloat();
+    float salario =sc.nextFloat();
 
 
     // Linha em branco
