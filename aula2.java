@@ -14,6 +14,11 @@ public class aula2 {
     System.out.print("s: Digite sua cidade ");
     sc.nextLine(); // limpar buffer
     String cidade = sc.nextLine();
+    System.out.print( "Digite o seu salário: ");
+    //int salario = sc.nextInt();
+    
+    //double salario =sc.nextDouble();
+    floatsalario =sc.nextFloat();
 
 
     // Linha em branco
@@ -29,5 +34,13 @@ public class aula2 {
 
     System.out.print( "Cidade: ");
     System.out.println(cidade);
-    System.out.println("Salário: ");
+
+    System.out.printf("Salário: %.3f\n", salario);
+
+    System.out.println();
+    System.out.println("Cadastro concluído!");
+
+    sc.close();
+    }
+}   
 
