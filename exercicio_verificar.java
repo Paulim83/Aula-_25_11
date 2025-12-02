@@ -11,10 +11,14 @@ public class exercicio_verificar {
     int idade = sc.nextInt();
 
     if (idade >= 18) {
-     System.out.println("Você é maior de idade!");
+     if (idade >= 60) {
+        System.out.println("Essa pessoa é idosa.");
     } else {
-        System.out.println( "Você é menor de idade");
+        System.out.println( " A pessoa não é idosa, porém é maior de idade");
     }
+   } else {
+    System.out.println( "Você é menor de idade");
+   }
     sc.close();
-}
+ }
 }
