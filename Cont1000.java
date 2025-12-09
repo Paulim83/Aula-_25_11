@@ -5,7 +5,7 @@ public static void main(String)[] args) {
     String frase = sc.nextLine();
     int cont = 1;
 
-    While (cont<= 1000) {
+    While (cont<= 1000){
 
         System.out.println(frase);
         System.out.println(frase);
